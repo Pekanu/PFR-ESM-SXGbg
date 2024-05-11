@@ -1,0 +1,38 @@
+10-Fold Cross Validation Results:
+
+1. DD
+Average Accuracy: 85.90 (Base Paper)
+Average Accuracy: 87.63 (30 layers ESM)
+Average Accuracy: 82.92 (Base ESM)
+Average Accuracy: 93.06 (Fine-tuned Base ESM + HMM Features)
+
+2. EDD
+Average Accuracy: 95.80 (Base Paper)
+Average accuracy: 90.29 (Base ESM)
+Average Accuracy: 95.12 (30 layered ESM)
+Average Accuracy: 96.35 (Fine-tuned Base ESM + HMM Features)
+
+3. TG
+Average Accuracy: 88.80 (Base Paper)
+Average Accuracy: 92.37 (30 layered ESM)
+Average Accuracy: 84.33 (Base ESM - 8 layers)
+Average Accuracy: 93.29 (Fine-tuned Base ESM + HMM Features)
+
+4. Scope - 36 Folds
+Average Accuracy: 91.40 (Base Paper)
+Average accuracy: 84.66 (Base ESM)
+Average Accuracy: 92.43 (30 layered ESM)
+Average Accuracy: (Fine-tuned Base ESM + HMM Features)
+
+5. Scope - 167 Folds
+Average Accuracy: 83.30 (Base Paper)
+Average accuracy: 66.48 (Base ESM)
+Average Accuracy: 81.66 (30 layered ESM)
+Average Accuracy: (Fine-tuned Base ESM + HMM Features)
+
+6. Scope 2.08 - 171 Folds
+Average Accuracy: 83.74 (Base Paper)
+Average Accuracy: 82.20 (HMM Attention)
+Average Accuracy: 65.52 (Base ESM)
+Average Accuracy: 80.04 (30 layered ESM)
+Average Accuracy: 92.24 (Fine-tuned Base ESM + HMM Features)
